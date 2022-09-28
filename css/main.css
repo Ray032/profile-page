@@ -1,7 +1,14 @@
 html {
   box-sizing: border-box;
+  scroll-behavior: auto;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+.hero-banner{
+  width: 100%;
+  height: 80vh;
+  background-color: inherit;#b3cf99 
 }
