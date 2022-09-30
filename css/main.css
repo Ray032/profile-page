@@ -3,6 +3,19 @@ html {
   scroll-behavior: auto;
 }
 
+.grid{
+  display: grid;
+  grid-template-columns: 400px 400px 400px;
+  grid-template-rows: 400px 400px;
+  justify-content: center;
+
+}
+
+img{
+  height: 400px;
+  width: 350px;
+}
+
 *, *::before, *::after {
   box-sizing: inherit;
 }
@@ -36,10 +49,42 @@ nav ul li a {
 
 nav ul li a:hover {
   text-decoration: underline;
+  color: #006400;
 }
 
-.hero-banner{
+.hero-banner {
   width: 100%;
-  height: 5vh;
-  background-color: inherit;
+  height: 40vh;
+  background-image: url(https://cdn.discordapp.com/attachments/703816993928773754/1024741070405382185/Screen_Shot_2022-09-28_at_1.54.21_PM.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+h1 {
+color: #fff;
+}
+
+.flex {
+  display: flex;
+  gap: 3%;
+}
+
+.card {
+  width: 50%;
+  padding: 2em;
+  background-color: #EEDC9A
+}
+
+.card h2 {
+  margin-top: 0;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+footer {
+  background-color: #b3cf99;
+  color: #fff;
 }
